@@ -18,6 +18,9 @@ public class ClientController {
 
 	@GetMapping
 	public List<Client> getAllClients() {
+		
+		System.out.println("guigas");
+		
 
 		return clientRepository.findAll();
 
